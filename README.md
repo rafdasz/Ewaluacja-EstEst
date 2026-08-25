@@ -1,20 +1,6 @@
 # EstEst Evaluation
 
-Projekt przeznaczony do automatyzacji procesu oceny i prognozowania udziałów oglądalności telewizyjnej (TV audience share) oraz generowania podsumowań estymacji **EstEst**.
-
-## Opis projektu
-
-Narzędzie wykorzystuje Python, biblioteki `pandas` i `numpy` oraz połączenia z bazami danych do przetwarzania wewnętrznych danych telemetrycznych. Główna funkcjonalność obejmuje:
-
-- Ekstrakcję, mapowanie i czyszczenie danych z systemów zewnętrznych (TechEdge, Provys).
-- Wyznaczanie metryk błędu (np. RMSE) oraz ewaluację efektywności estymatorów.
-- Generowanie miesięcznych raportów podsumowujących.
-
----
-
-## Instrukcja aktualizacji danych i generowania raportu
-
-Poniższy przewodnik opisuje procedurę krok po kroku niezbędną do zaktualizowania danych oraz wygenerowania nowego podsumowania estymacji za poprzedni miesiąc.
+Poniższy przewodnik opisuje procedurę krok po kroku niezbędną do zaktualizowania danych oraz wygenerowania nowego podsumowania EstEst za poprzedni miesiąc.
 
 ### Wymagania wstępne
 
